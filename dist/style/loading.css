@@ -1,0 +1,35 @@
+body.loading:after {
+  /* with no content, nothing is rendered */
+  content: "";
+  position: fixed;
+  /* element stretched to cover during rotation an aspect ratio up to 1/10 */
+  top: -500%;
+  left: -500%;
+  right: -500%;
+  bottom: -500%;
+  z-index: 9999;
+  pointer-events: none; /* to block content use: all */
+  /* background */
+  background: rgba(75, 76, 76, 0.46);
+  background-image: url(../img/loader.svg);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: 100px 100px;
+
+
+}
+
+@-webkit-keyframes linearRotate {
+  from {
+    -webkit-transform: rotate(0deg);
+    -moz-transform: rotate(0deg);
+    -o-transform:rotate(0deg);
+    transform: rotate(0deg);
+  }
+  to {
+    -webkit-transform: rotate(360deg);
+    -moz-transform: rotate(360deg);
+    -o-transform: rotate(360deg);
+    transform: rotate(360deg);
+  }
+}

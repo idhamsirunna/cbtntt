@@ -1,0 +1,1359 @@
+/*samsung j1*/
+
+@media screen and (max-width: 320px) 
+              and (max-height: 457px) {
+    .panel {
+    width: 100%;
+    margin-left: 0px;
+    padding-left:-10px;
+    }
+    .panel-login {
+    margin-top: 8%;
+    }
+     .noppading-mobile{
+      margin:0px;
+      padding:0px;
+    }
+    .panel-body {
+    margin-top: -10px;
+    padding: 6px;
+    }
+    .panel-heading-text h2 {
+    font-size: 17px;
+    }
+    .panel-heading-text p {
+    font-size: 13px;
+    }
+     .logo-header {
+    position: absolute;
+    top: 2px;
+    left: 0px;
+    }
+    .nama-cbt {
+    top: 26px;
+    left: 15%;
+    }
+    .nama-cbt h1 {
+    font-size: 13px;
+
+    letter-spacing: 0px;
+    }
+    .nama-sekolah h1 {
+    font-size: 13px;
+    }
+    .nama-sekolah {
+    position: absolute;
+    top: 11px;
+    left: 15%;
+    }
+    .header .logo-header img {
+    max-width: 13%;
+    }
+    .btn-block {
+    padding:7px!important;
+    }
+    .logo-header-2, .nama-sekolah-2, .nama-cbt-2 {
+    display:none;
+    }
+    .footer { 
+    font-size: 10px;
+    }
+ 
+    .box-foto-user {
+    top: 4px;
+    right: 271px;
+    padding: 19px;
+    }
+    .box-nama-user {
+    left: 57px;
+    top: 15px;
+    }
+    #timer{
+        top:2px;
+    }
+    .box-tombol-logout {
+    right: 9px;
+    top: 9px;
+    }
+    .btn-logout-user {
+        padding:0px 5px;
+        font-size: 13px;
+    }
+    .box-soal-luar, .box-soal-dalam{
+        padding:0px;
+    }
+    .box-soal-border {
+    border: solid 1px #ddd;
+    }
+    .box-soal, .box-jawaban-obj, .box-jawaban-esai{
+        border:none;
+    }
+    .margin-top-minus {
+    margin-top: -4%;
+    padding:5px;
+    }
+    .box-nama-user {
+    left: 54px;
+    top: 14px;
+    font-size: 12px;
+    width: 220px;
+    display: block;
+    }
+    .text-soal{
+        display: none;
+    }
+    .box-nomor {
+    left: 14px;
+    }
+    .box-daftar-soal {
+        display: none;
+    }
+    .box-daftar-soal-mobile{
+    display: block;
+    height: 30px;
+    width: 30px;
+    padding-left: 1px;
+    padding-top: 7px;
+    border-radius: 20px;
+    position: absolute;
+    right: 11px;
+    background: #336666;
+    top: 4px;
+    color: #fff;
+    font-size: 12px;
+    }
+    .box-waktu {
+    display: block;
+    height: 34px;
+    width: 183px;
+    width: 111px;
+    border: 1.2px solid #ffc107;
+    padding: 4px;
+    border-radius: 20px;
+    position: absolute;
+    right: 91px;
+    top: 1px;
+    }
+    .box-waktu p{
+        display: none;
+    }
+    .btn-prev span, .btn-next span {
+        display:none;
+    }
+    #btn-prev {
+    width: 40px;
+    margin: auto;
+    float:left;
+    }
+     #btn-next {
+    width: 40px;
+    margin: auto;
+    float:right;
+    }
+    .box-ragu{
+        margin-left:-33px;
+    }
+    .scroll {
+    height: 46vh;
+    }
+    .margin-mobile{
+        margin-right:5px;
+    }
+    .modal-body{
+        padding: 0px 0px 15px;
+    }
+    .dark-mode {
+    right: 71px;
+    bottom: 78px;
+    }
+    #dark-mode-btn {
+     border: 0px;
+     height:35px; 
+     width:35px;
+     padding-top:1px!important;
+    }
+    .invers .modal-content{
+        background: #3f4a59;
+        color:#fff;
+    }
+    .margin-mobile{
+        margin-top:10px;
+    }
+    .btnCustom{
+        border: 0px;
+    }
+    #daftar-obj, #daftar-esai, #daftar-obj-modal, #daftar-esai-modal {
+        padding:0px;
+    }
+    .plakat-objektif, .plakat-esai{
+        margin-left:14px;
+    }
+
+
+}
+@media screen and (max-width: 360px) 
+              and (max-height: 566px)
+              and (min-width: 321px) {
+    .panel {
+        width: 100%;
+    }
+    #tempat-soal{
+        padding:5px;
+    }
+    .margin-top-mobile{
+        margin-top:-20px;
+    }
+    .noppading-mobile{
+      margin:0px;
+      padding:0px;
+    }
+    .full-width-row{
+        margin-left:-15px!important;
+        margin-right:-15px!important;
+    }
+    .panel{
+        margin-left:0px;
+    }
+    .margin-top-minus {
+    margin-top: -4%;
+    padding:5px;
+    }
+    .logo-header-2, .nama-sekolah-2, .nama-cbt-2 {
+    display:none;
+    }
+    .footer { 
+    font-size: 12px;
+    }
+ 
+    .box-foto-user {
+    top: 4px;
+    right: 304px;
+    padding: 22px
+    }
+    .box-nama-user {
+    left: 64px;
+    top: 17px;
+    font-size: 12px;
+    width: 220px;
+    display: block;
+    }
+
+    .box-tombol-logout {
+    right: 18px;
+    top: 11px;
+    font-size: 10px;
+    }
+     .btn-logout-user{
+        padding-bottom: 2px;
+     }
+    .input-group-addon .glyphicon {
+    padding-top: 7px;
+    }
+    .panel-login {
+    margin-top: 15%;
+    }
+   .logo-header {
+    position: absolute;
+    top: 2px;
+    left: 0px;
+    }
+    .nama-cbt {
+    top: 30px;
+    left: 15%;
+    }
+    .nama-cbt h1 {
+    font-size: 13px;
+    letter-spacing: 0px;
+    }
+    .nama-sekolah h1 {
+    font-size: 13px;
+    }
+    .nama-sekolah {
+    position: absolute;
+    top: 13px;
+    left: 15%;
+    }
+    .header .logo-header img {
+    max-width: 15%;
+    }
+
+    .box-daftar-soal {
+        display: none;
+    }
+    .box-daftar-soal-mobile{
+        display:block;
+        height: 35px;
+    width: 50px;
+    padding: 4px;
+    border-radius: 20px;
+    position: absolute;
+    right: 15px;
+    background: #336666;
+    top: -4px;
+    color:#fff;
+    }
+    .box-daftar-soal-mobile p{
+        padding:2px 6px;
+    }
+    .box-waktu {
+    width: 112px;
+    right: 75px; 
+    }
+    .box-waktu p{
+        display: none;
+    }
+    .box-nomor{
+    top: -1px;
+    left: 115px;
+    }
+    .box-soal-luar {
+        padding:2px;
+    }
+    .box-soal-border {
+    border:1px solid grey;
+    }
+    .box-soal{
+        border:none;
+    }
+    .box-jawaban-obj{
+        border:none;
+    }
+    .box-soal-dalam{
+    padding:2px;
+    }
+    .btn-prev span, .btn-next span {
+        display:none;
+    }
+    #btn-prev, #btn-next {
+    width: 50px;
+    margin: auto;
+    }
+    .box-ragu{
+        margin-left:-20px;
+    }
+    .scroll {
+    height: 53vh;
+    }
+    .margin-mobile{
+        margin-right:5px;
+    }
+    .dark-mode {
+    right: 116px;
+    bottom: 80px;
+    }
+    #dark-mode-btn {
+     border: 0px;
+     height:35px; 
+     width:35px;
+     padding-top:1px!important;
+    }
+    .invers .modal-content{
+        background: #3f4a59;
+        color:#fff;
+    }
+    .margin-mobile{
+        margin-top:10px;
+    }
+    .btnCustom{
+        border: 0px;
+    }
+}
+/*A5 samsung*/
+@media screen and (max-width: 360px) 
+              and (max-height: 559px)
+              and (min-width: 321px) {
+    .panel {
+        width: 100%;
+    }
+    #tempat-soal{
+        padding:5px;
+    }
+    .margin-top-mobile{
+        margin-top:-20px;
+    }
+    .noppading-mobile{
+      margin:0px;
+      padding:0px;
+    }
+    .full-width-row{
+        margin-left:-15px!important;
+        margin-right:-15px!important;
+    }
+    .panel{
+        margin-left:0px;
+    }
+    .margin-top-minus {
+    margin-top: -4%;
+    padding:5px;
+    }
+    .logo-header-2, .nama-sekolah-2, .nama-cbt-2 {
+    display:none;
+    }
+    .footer { 
+    font-size: 12px;
+    }
+ 
+    .box-foto-user {
+    top: 4px;
+    right: 304px;
+    padding: 22px
+    }
+    .box-nama-user {
+    left: 64px;
+    top: 17px;
+    font-size: 12px;
+    width: 220px;
+    display: block;
+    }
+
+    .box-tombol-logout {
+    right: 18px;
+    top: 11px;
+    font-size: 10px;
+    }
+     .btn-logout-user{
+        padding-bottom: 2px;
+     }
+    .input-group-addon .glyphicon {
+    padding-top: 7px;
+    }
+    .panel-login {
+    margin-top: 15%;
+    }
+   .logo-header {
+    position: absolute;
+    top: 2px;
+    left: 0px;
+    }
+    .nama-cbt {
+    top: 30px;
+    left: 15%;
+    }
+    .nama-cbt h1 {
+    font-size: 13px;
+    letter-spacing: 0px;
+    }
+    .nama-sekolah h1 {
+    font-size: 13px;
+    }
+    .nama-sekolah {
+    position: absolute;
+    top: 13px;
+    left: 15%;
+    }
+    .header .logo-header img {
+    max-width: 15%;
+    }
+
+    .box-daftar-soal {
+        display: none;
+    }
+    .box-daftar-soal-mobile{
+        display:block;
+        height: 35px;
+    width: 50px;
+    padding: 4px;
+    border-radius: 20px;
+    position: absolute;
+    right: 15px;
+    background: #336666;
+    top: -4px;
+    color:#fff;
+    }
+    .box-daftar-soal-mobile p{
+        padding:2px 6px;
+    }
+    .box-waktu {
+    width: 112px;
+    right: 75px; 
+    }
+    .box-waktu p{
+        display: none;
+    }
+    .box-nomor{
+    top: -1px;
+    left: 115px;
+    }
+    .box-soal-luar {
+        padding:2px;
+    }
+    .box-soal-border {
+    border:1px solid grey;
+    }
+    .box-soal{
+        border:none;
+    }
+    .box-jawaban-obj{
+        border:none;
+    }
+    .box-soal-dalam{
+    padding:2px;
+    }
+    .btn-prev span, .btn-next span {
+        display:none;
+    }
+    #btn-prev, #btn-next {
+    width: 50px;
+    margin: auto;
+    }
+    .box-ragu{
+        margin-left:-20px;
+    }
+    .scroll {
+    height: 53vh;
+    }
+    .margin-mobile{
+        margin-right:5px;
+    }
+}
+@media screen and (max-width: 360px) 
+              and (max-height: 628px)
+              and (min-width: 321px) {
+    .panel {
+        width: 100%;
+    }
+    #tempat-soal{
+        padding:5px;
+    }
+    .margin-top-mobile{
+        margin-top:-20px;
+    }
+    .noppading-mobile{
+      margin:0px;
+      padding:0px;
+    }
+    .full-width-row{
+        margin-left:-15px!important;
+        margin-right:-15px!important;
+    }
+    .panel{
+        margin-left:0px;
+    }
+    .margin-top-minus {
+    margin-top: -4%;
+    padding:5px;
+    }
+    .logo-header-2, .nama-sekolah-2, .nama-cbt-2 {
+    display:none;
+    }
+    .footer { 
+    font-size: 12px;
+    }
+ 
+    .box-foto-user {
+    top: 4px;
+    right: 304px;
+    padding: 22px
+    }
+    .box-nama-user {
+    left: 64px;
+    top: 17px;
+    font-size: 12px;
+    width: 220px;
+    display: block;
+    }
+
+    .box-tombol-logout {
+    right: 18px;
+    top: 11px;
+    font-size: 10px;
+    }
+     .btn-logout-user{
+        padding-bottom: 2px;
+     }
+    .input-group-addon .glyphicon {
+    padding-top: 7px;
+    }
+    .panel-login {
+    margin-top: 15%;
+    }
+   .logo-header {
+    position: absolute;
+    top: 2px;
+    left: 0px;
+    }
+    .nama-cbt {
+    top: 30px;
+    left: 15%;
+    }
+    .nama-cbt h1 {
+    font-size: 13px;
+    letter-spacing: 0px;
+    }
+    .nama-sekolah h1 {
+    font-size: 13px;
+    }
+    .nama-sekolah {
+    position: absolute;
+    top: 13px;
+    left: 15%;
+    }
+    .header .logo-header img {
+    max-width: 15%;
+    }
+
+    .box-daftar-soal {
+        display: none;
+    }
+    .box-daftar-soal-mobile{
+        display:block;
+        height: 35px;
+    width: 50px;
+    padding: 4px;
+    border-radius: 20px;
+    position: absolute;
+    right: 15px;
+    background: #336666;
+    top: -4px;
+    color:#fff;
+    }
+    .box-daftar-soal-mobile p{
+        padding:2px 6px;
+    }
+    .box-waktu {
+    width: 112px;
+    right: 75px; 
+    }
+    .box-waktu p{
+        display: none;
+    }
+    .box-nomor{
+    top: -1px;
+    left: 115px;
+    }
+    .box-soal-luar {
+        padding:2px;
+    }
+    .box-soal-border {
+    border:1px solid grey;
+    }
+    .box-soal{
+        border:none;
+    }
+    .box-jawaban-obj{
+        border:none;
+    }
+    .box-soal-dalam{
+    padding:2px;
+    }
+    .btn-prev span, .btn-next span {
+        display:none;
+    }
+    #btn-prev, #btn-next {
+    width: 50px;
+    margin: auto;
+    }
+    .box-ragu{
+        margin-left:-20px;
+    }
+    .scroll {
+    height: 53vh;
+    }
+    .margin-mobile{
+        margin-right:5px;
+    }
+    .dark-mode {
+    right: 116px;
+    bottom: 80px;
+    }
+    #dark-mode-btn {
+     border: 0px;
+     height:35px; 
+     width:35px;
+     padding-top:1px!important;
+    }
+    .invers .modal-content{
+        background: #3f4a59;
+        color:#fff;
+    }
+    .margin-mobile{
+        margin-top:10px;
+    }
+    .btnCustom{
+        border: 0px;
+    }
+}
+
+@media screen and (max-width: 360px) 
+              and (max-height: 593px)
+              and (min-height: 567px)
+    {
+    .panel {
+        width: 100%;
+    }
+    #tempat-soal{
+        padding:5px;
+    }
+    .margin-top-mobile{
+        margin-top:-20px;
+    }
+    .noppading-mobile{
+      margin:0px;
+      padding:0px;
+    }
+    .full-width-row{
+        margin-left:-15px!important;
+        margin-right:-15px!important;
+    }
+    .panel{
+        margin-left:0px;
+    }
+    .margin-top-minus {
+    margin-top: -4%;
+    padding:5px;
+    }
+    .logo-header-2, .nama-sekolah-2, .nama-cbt-2 {
+    display:none;
+    }
+    .footer { 
+    font-size: 12px;
+    }
+ 
+    .box-foto-user {
+    top: 4px;
+    right: 304px;
+    padding: 22px
+    }
+    .box-nama-user {
+    left: 64px;
+    top: 17px;
+    font-size: 12px;
+    width: 220px;
+    display: block;
+    }
+
+    .box-tombol-logout {
+    right: 18px;
+    top: 11px;
+    font-size: 10px;
+    }
+     .btn-logout-user{
+        padding-bottom: 2px;
+     }
+    .input-group-addon .glyphicon {
+    padding-top: 7px;
+    }
+    .panel-login {
+    margin-top: 15%;
+    }
+   .logo-header {
+    position: absolute;
+    top: 2px;
+    left: 0px;
+    }
+    .nama-cbt {
+    top: 30px;
+    left: 15%;
+    }
+    .nama-cbt h1 {
+    font-size: 13px;
+
+    letter-spacing: 0px;
+    }
+    .nama-sekolah h1 {
+    font-size: 13px;
+    }
+    .nama-sekolah {
+    position: absolute;
+    top: 13px;
+    left: 15%;
+    }
+    .header .logo-header img {
+    max-width: 15%;
+    }
+
+    .box-daftar-soal {
+        display: none;
+    }
+    .box-daftar-soal-mobile{
+        display:block;
+        height: 35px;
+    width: 50px;
+    padding: 4px;
+    border-radius: 20px;
+    position: absolute;
+    right: 15px;
+    background: #336666;
+    top: -4px;
+    color:#fff;
+    }
+    .box-daftar-soal-mobile p{
+        padding:2px 6px;
+    }
+    .box-waktu {
+    width: 112px;
+    right: 75px; 
+    }
+    .box-waktu p{
+        display: none;
+    }
+    .box-nomor{
+    top: -1px;
+    left: 115px;
+    }
+    .box-soal-luar {
+        padding:2px;
+    }
+    .box-soal-border {
+    border:1px solid grey;
+    }
+    .box-soal{
+        border:none;
+    }
+    .box-jawaban-obj{
+        border:none;
+    }
+    .box-soal-dalam{
+    padding:2px;
+    }
+    .btn-prev span, .btn-next span {
+        display:none;
+    }
+    #btn-prev, #btn-next {
+    width: 50px;
+    margin: auto;
+    }
+    .box-ragu{
+        margin-left:-20px;
+    }
+    .scroll {
+    height: 55vh;
+    }
+    .margin-mobile{
+        margin-right:5px;
+    }
+    .dark-mode {
+    right: 116px;
+    bottom: 80px;
+    }
+    #dark-mode-btn {
+     border: 0px;
+     height:35px; 
+     width:35px;
+     padding-top:1px!important;
+    }
+    .invers .modal-content{
+        background: #3f4a59;
+        color:#fff;
+    }
+    .margin-mobile{
+        margin-top:10px;
+    }
+    .btnCustom{
+        border: 0px;
+    }
+}
+
+@media screen and (max-width: 360px) 
+              and (max-height: 674px)
+              and (min-height: 594px)
+    {
+    .panel {
+        width: 100%;
+    }
+    #tempat-soal{
+        padding:5px;
+    }
+    .margin-top-mobile{
+        margin-top:-20px;
+    }
+    .noppading-mobile{
+      margin:0px;
+      padding:0px;
+    }
+    .full-width-row{
+        margin-left:-15px!important;
+        margin-right:-15px!important;
+    }
+    .panel{
+        margin-left:0px;
+    }
+    .margin-top-minus {
+    margin-top: -4%;
+    padding:5px;
+    }
+    .logo-header-2, .nama-sekolah-2, .nama-cbt-2 {
+    display:none;
+    }
+    .footer { 
+    font-size: 12px;
+    }
+ 
+    .box-foto-user {
+    top: 4px;
+    right: 304px;
+    padding: 22px
+    }
+    .box-nama-user {
+    left: 64px;
+    top: 17px;
+    font-size: 12px;
+    width: 220px;
+    display: block;
+    }
+
+    .box-tombol-logout {
+    right: 18px;
+    top: 11px;
+    font-size: 10px;
+    }
+     .btn-logout-user{
+        padding-bottom: 2px;
+     }
+    .input-group-addon .glyphicon {
+    padding-top: 7px;
+    }
+    .panel-login {
+    margin-top: 15%;
+    }
+   .logo-header {
+    position: absolute;
+    top: 2px;
+    left: 0px;
+    }
+    .nama-cbt {
+    top: 30px;
+    left: 15%;
+    }
+    .nama-cbt h1 {
+    font-size: 13px;
+
+    letter-spacing: 0px;
+    }
+    .nama-sekolah h1 {
+    font-size: 13px;
+    }
+    .nama-sekolah {
+    position: absolute;
+    top: 13px;
+    left: 15%;
+    }
+    .header .logo-header img {
+    max-width: 15%;
+    }
+
+    .box-daftar-soal {
+        display: none;
+    }
+    .box-daftar-soal-mobile{
+        display:block;
+        height: 35px;
+    width: 50px;
+    padding: 4px;
+    border-radius: 20px;
+    position: absolute;
+    right: 15px;
+    background: #336666;
+    top: -4px;
+    color:#fff;
+    }
+    .box-daftar-soal-mobile p{
+        padding:2px 6px;
+    }
+    .box-waktu {
+    width: 112px;
+    right: 75px; 
+    }
+    .box-waktu p{
+        display: none;
+    }
+    .box-nomor{
+    top: -1px;
+    left: 115px;
+    }
+    .box-soal-luar {
+        padding:2px;
+    }
+    .box-soal-border {
+    border:1px solid grey;
+    }
+    .box-soal{
+        border:none;
+    }
+    .box-jawaban-obj{
+        border:none;
+    }
+    .box-soal-dalam{
+    padding:2px;
+    }
+    .btn-prev span, .btn-next span {
+        display:none;
+    }
+    #btn-prev, #btn-next {
+    width: 50px;
+    margin: auto;
+    }
+    .box-ragu{
+        margin-left:-20px;
+    }
+    .scroll {
+    height: 60vh;
+    }
+    .margin-mobile{
+        margin-right:5px;
+    }
+    .dark-mode {
+    right: 116px;
+    bottom: 80px;
+    }
+    #dark-mode-btn {
+     border: 0px;
+     height:35px; 
+     width:35px;
+     padding-top:1px!important;
+    }
+    .invers .modal-content{
+        background: #3f4a59;
+        color:#fff;
+    }
+    .margin-mobile{
+        margin-top:10px;
+    }
+    .btnCustom{
+        border: 0px;
+    }
+     #daftar-obj, #daftar-esai, #daftar-obj-modal, #daftar-esai-modal {
+        padding:0px;
+    }
+    .plakat-objektif, .plakat-esai{
+        margin-left:14px;
+    }
+}
+
+
+@media screen and (max-width: 375px) and (min-width: 361px) {
+    .panel {
+        width: 100%;
+    }
+    #tempat-soal{
+        padding:5px;
+    }
+    .margin-top-mobile{
+        margin-top:-20px;
+    }
+    .noppading-mobile{
+      margin:0px;
+      padding:0px;
+    }
+    .full-width-row{
+        margin-left:-15px!important;
+        margin-right:-15px!important;
+    }
+    .panel{
+        margin-left:0px;
+    }
+    .margin-top-minus {
+    margin-top: -4%;
+    padding:5px;
+    }
+    .logo-header-2, .nama-sekolah-2, .nama-cbt-2 {
+    display:none;
+    }
+    .footer { 
+    font-size: 12px;
+    }
+ 
+    .box-foto-user {
+    top: 6px;
+    right: 319px;
+    padding: 22px
+    }
+    .box-nama-user {
+    left: 64px;
+    top: 19px;
+    font-size: 12px;
+    width: 220px;
+    display: block;
+    }
+
+    .box-tombol-logout {
+    right: 18px;
+    top: 11px;
+    font-size: 10px;
+    }
+     .btn-logout-user{
+        padding-bottom: 2px;
+     }
+    .input-group-addon .glyphicon {
+    padding-top: 7px;
+    }
+    .panel-login {
+    margin-top: 15%;
+    }
+   .logo-header {
+    position: absolute;
+    top: 2px;
+    left: 0px;
+    }
+    .nama-cbt {
+    top: 30px;
+    left: 15%;
+    }
+    .nama-cbt h1 {
+    font-size: 13px;
+
+    letter-spacing: 0px;
+    }
+    .nama-sekolah h1 {
+    font-size: 13px;
+    }
+    .nama-sekolah {
+    position: absolute;
+    top: 13px;
+    left: 15%;
+    }
+    .header .logo-header img {
+    max-width: 15%;
+    }
+
+    .box-daftar-soal {
+        display: none;
+    }
+    .box-daftar-soal-mobile{
+        z-index: 999;
+        display:block;
+        height: 35px;
+    width: 50px;
+    padding: 4px;
+    border-radius: 20px;
+    position: absolute;
+    right: 15px;
+    background: #336666;
+    top: -4px;
+    color:#fff;
+    }
+    .box-daftar-soal-mobile p{
+        padding:2px 6px;
+    }
+    .box-waktu {
+    width: 112px;
+    right: 75px; 
+    }
+    .box-waktu p{
+        display: none;
+    }
+    .box-nomor{
+    top: -1px;
+    left: 115px;
+    }
+    .box-soal-luar {
+        padding:2px;
+    }
+    .box-soal-border {
+    border:1px solid grey;
+    }
+    .box-soal{
+        border:none;
+    }
+    .box-jawaban-obj{
+        border:none;
+    }
+    .box-soal-dalam{
+    padding:2px;
+    }
+    .btn-prev span, .btn-next span {
+        display:none;
+    }
+    #btn-prev, #btn-next {
+    width: 50px;
+    margin: auto;
+    }
+    .box-ragu{
+        margin-left:-26px;
+    }
+    .scroll {
+    height: 50vh;
+    }
+    .margin-mobile{
+        margin-right:5px;
+    }
+    .dark-mode {
+    right: 116px;
+    bottom: 80px;
+    }
+    #dark-mode-btn {
+     border: 0px;
+     height:35px; 
+     width:35px;
+     padding-top:1px!important;
+    }
+    .invers .modal-content{
+        background: #3f4a59;
+        color:#fff;
+    }
+    .margin-mobile{
+        margin-top:10px;
+    }
+   
+}
+
+/*
+s9+
+
+*/
+@media screen and (max-width:412px) and (min-width:376px) {
+    .panel {
+        width: 100%;
+    }
+    #tempat-soal{
+        padding:5px;
+    }
+    .margin-top-mobile{
+        margin-top:-20px;
+    }
+    .noppading-mobile{
+      margin:0px;
+      padding:0px;
+    }
+    .full-width-row{
+        margin-left:-15px!important;
+        margin-right:-15px!important;
+    }
+    .panel{
+        margin-left:0px;
+    }
+    .margin-top-minus {
+    margin-top: -4%;
+    }
+    .logo-header-2, .nama-sekolah-2, .nama-cbt-2 {
+    display:none;
+    }
+    .footer { 
+    font-size: 12px;
+    }
+ 
+    .box-foto-user {
+    top: 9px;
+    right: 357px;
+    padding: 22px
+    }
+    .box-nama-user {
+    left: 64px;
+    top: 21px;
+    font-size: 12px;
+    width: 220px;
+    display: block;
+    }
+
+    .box-tombol-logout {
+    right: 18px;
+    top: 16px;
+    font-size: 10px;
+    }
+     .btn-logout-user{
+        padding-bottom: 2px;
+     }
+    .input-group-addon .glyphicon {
+    padding-top: 7px;
+    }
+    .panel-login {
+    margin-top: 15%;
+    }
+   .logo-header {
+    position: absolute;
+    top: 5px;
+    left: 0px;
+    }
+    .nama-cbt {
+    top: 30px;
+    left: 15%;
+    }
+    .nama-cbt h1 {
+    font-size: 13px;
+
+    letter-spacing: 0px;
+    }
+
+    .nama-sekolah h1 {
+    font-size: 13px;
+    }
+    .nama-sekolah {
+    position: absolute;
+    top: 13px;
+    left: 15%;
+    }
+    .header .logo-header img {
+    max-width: 15%;
+    }
+
+    .box-daftar-soal {
+        display: none;
+    }
+    .box-daftar-soal-mobile{
+        display:block;
+        height: 35px;
+    width: 50px;
+    padding: 4px;
+    border-radius: 20px;
+    position: absolute;
+    right: 15px;
+    background: #336666;
+    top: -4px;
+    color:#fff;
+    }
+    .box-daftar-soal-mobile p{
+        padding:2px 6px;
+    }
+    .box-waktu {
+    width: 112px;
+    right: 75px; 
+    }
+    .box-waktu p{
+        display: none;
+    }
+    .box-nomor{
+    top: -1px;
+    left: 115px;
+    }
+    .box-soal-luar {
+        padding:2px;
+    }
+    .box-soal-border {
+    border:1px solid grey;
+    }
+    .box-soal{
+        border:none;
+    }
+    .box-jawaban-obj{
+        border:none;
+    }
+    .box-soal-dalam{
+    padding:2px;
+    }
+    .btn-prev span, .btn-next span {
+        display:none;
+    }
+    #btn-prev, #btn-next {
+    width: 50px;
+    margin: auto;
+    }
+    .box-ragu{
+        margin-left:-20px;
+    }
+    .scroll {
+    height: 61vh;
+    }
+    .dark-mode {
+    right: 116px;
+    bottom: 80px;
+    }
+    #dark-mode-btn {
+     border: 0px;
+     height:35px; 
+     width:35px;
+     padding-top:1px!important;
+    }
+    .invers .modal-content{
+        background: #3f4a59;
+        color:#fff;
+    }
+    .margin-mobile{
+        margin-top:10px;
+    }
+    .btnCustom{
+        border: 0px;
+    }
+}
+
+
+
