@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset='utf-8' />
+	<meta http-equiv='X-UA-Compatible' content='IE=edge' />
+	<title>Aplikasi CBT Disdik NTT</title>
+	<meta name='viewport' content='width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no' />
+	<link rel='shortcut icon' href='http://www.sman2amfoangtimur.sch.id/cbt/favicon.ico' />
+	<link rel='stylesheet' href='http://www.sman2amfoangtimur.sch.id/cbt/dist/bootstrap/css/bootstrap.min.css' />
+	<link rel='stylesheet' href='http://www.sman2amfoangtimur.sch.id/cbt/plugins/fontawesome/css/all.css' />
+	<link rel='stylesheet' href='http://www.sman2amfoangtimur.sch.id/cbt/dist/css/AdminLTE.min.css' />
+	<link rel='stylesheet' href='http://www.sman2amfoangtimur.sch.id/cbt/dist/css/skins/skin-green-light.min.css' />
+	<link rel='stylesheet' href='http://www.sman2amfoangtimur.sch.id/cbt/plugins/iCheck/square/green.css' />
+	<link rel='stylesheet' href='http://www.sman2amfoangtimur.sch.id/cbt/plugins/animate/animate.min.css'>
+	<link rel='stylesheet' href='http://www.sman2amfoangtimur.sch.id/cbt/plugins/sweetalert2/dist/sweetalert2.min.css'>
+	<link rel='stylesheet' href='http://www.sman2amfoangtimur.sch.id/cbt/plugins/slidemenu/jquery-slide-menu.css'>
+	<link rel='stylesheet' href='http://www.sman2amfoangtimur.sch.id/cbt/plugins/toastr/toastr.min.css'>
+	<link rel='stylesheet' href='http://www.sman2amfoangtimur.sch.id/cbt/plugins/radio/css/style.css'>
+	<script src='http://www.sman2amfoangtimur.sch.id/cbt/plugins/jQuery/jquery-2.2.3.min.js'></script>
+
+	<style>
+		.soal img {
+			max-width: 100%;
+			height: auto;
+		}
+
+		.main-header .sidebar-baru {
+			float: left;
+			color: white;
+			padding: 15px 15px;
+			cursor: pointer;
+		}
+
+		.callout {
+			border-left: 0px;
+		}
+
+		.btn {
+			border-radius: 20em;
+		}
+
+		.btn.btn-flat {
+			border-radius: 20em;
+		}
+
+		.skin-red-light .sidebar-menu>li:hover>a,
+		.skin-red-light .sidebar-menu>li.active>a {
+			color: #fff;
+			background: #e111e8;
+		}
+	</style>
+</head>
+
+<body class='hold-transition skin-green-light  fixed '>
+	<span id='livetime'></span>
+	<div class='wrapper'>
+		<header class='main-header'>
+			<a href='?' class='logo' style='background-color:#00a899;box-shadow: 0px 10px 10px 0px rgba(0,0,0,0.1)'>
+				<span class='animated flipInX logo-mini'>
+					<img src="http://www.sman2amfoangtimur.sch.id/cbt/dist/img/logontt.png" height="30px">
+				</span>
+				<span class='animated flipInX logo-lg' style="margin:-3px;color:#000">
+					<img src="http://www.sman2amfoangtimur.sch.id/cbt/dist/img/header.png" height="40px">
+				</span>
+			</a>
+			<nav class='navbar navbar-static-top' style='background-color:#00a896;box-shadow: 0px 10px 10px 0px rgba(0,0,0,0.1)' role='navigation'>
+				<a href='#' class='sidebar-baru' data-toggle='offcanvas' role='button'>
+					<i class="fa fa-bars fa-lg fa-fw"></i>
+				</a>
+
+				<div class='navbar-custom-menu'>
+					<ul class='nav navbar-nav'>
+						<li class="visible-xs"><a></a></li>
+						<li class='dropdown user user-menu'>
+							<a href='#' class='dropdown-toggle' data-toggle='dropdown'>
+								<img src='http://www.sman2amfoangtimur.sch.id/cbt/dist/img/avatar_default.png' class='user-image'   alt='+'>								<span class='hidden-xs'> &nbsp; <i class='fa fa-caret-down'></i></span>
+							</a>
+							<ul class='dropdown-menu'>
+								<li class='user-header'>
+									<img src='http://www.sman2amfoangtimur.sch.id/cbt/dist/img/avatar_default.png' class='img-circle' alt='User Image'>									<p>
+																			</p>
+								</li>
+								<li class='user-footer'>
+									<div class='pull-right'>
+										<a href='http://www.sman2amfoangtimur.sch.id/cbt/logout.php' class='btn btn-sm btn-default btn-flat'><i class='fa fa-sign-out'></i> Keluar</a>
+									</div>
+								</li>
+							</ul>
+						</li>
+					</ul>
+				</div>
+			</nav>
+		</header>
+		<aside class='main-sidebar'>
+			<section class='sidebar'>
+				<hr style="margin:0px">
+				<div class='user-panel'>
+					<div class='pull-left image'>
+						<img src='http://www.sman2amfoangtimur.sch.id/cbt/dist/img/avatar_default.png' class='img'  style='max-width:60px' alt='+'>					</div>
+					<div class='pull-left info' style='left:65px'>
+												<p title=""></p>
+						<a href='#'><i class='fa fa-circle text-green'></i> online</a>
+					</div>
+				</div>
+				<hr style="margin:0px">
+				<ul class='sidebar-menu tree' data-widget='tree'>
+					<li class='header'> Menu Utama  </li>
+					<li><a href='http://www.sman2amfoangtimur.sch.id/cbt'><i class='fas fa-calendar-alt fa-lg '></i> <span>  Jadwal Ujian</span></a></li>
+					<hr style="margin:0px">
+					<li><a href='http://www.sman2amfoangtimur.sch.id/cbt/hasil'><i class='fas fa-file-signature fa-lg '></i> <span>  Hasil Ujian</span></a></li>
+					<hr style="margin:0px">
+					<li><a href='http://www.sman2amfoangtimur.sch.id/cbt/pengumuman'><i class='fas fa-fw fa-lg fa-bullhorn'></i> <span> Pengumuman</span></a></li>
+					<hr style="margin:0px">
+					<!-- <li><a href='brocandycbt.apk'><i class='fas fa-fw fa-2x fa-star'></i> <span>Exambro</span></a></li>
+				</ul><!-- /.sidebar-menu -->
+			</section>
+		</aside>
+		<div class='content-wrapper' style='background-image: url(admin/background.jpg);background-size: cover;'>
+			<section class='content-header' style="height:102px;z-index:0;background:#00a896">
+			</section>
+			<section class='content' style="margin-top:-95px">
+									<script>location=('http://www.sman2amfoangtimur.sch.id/cbt');</script>							</section><!-- /.content -->
+		</div><!-- /.content-wrapper -->
+		<footer class='main-footer hidden-xs'>
+			<div class='container'>
+				<div class='pull-left hidden-xs'>
+					<strong>
+						<span id='end-sidebar'>
+							&copy; 2020 Dinas Pendidikan Provinsi NTT Support by CandyCBT
+						</span>
+					</strong>
+				</div>
+		</footer>
+	</div><!-- ./wrapper -->
+
+
+	<script src='http://www.sman2amfoangtimur.sch.id/cbt/plugins/zoom-master/jquery.zoom.js'></script>
+	<script src='http://www.sman2amfoangtimur.sch.id/cbt/dist/bootstrap/js/bootstrap.min.js'></script>
+	<script src='http://www.sman2amfoangtimur.sch.id/cbt/plugins/slimScroll/jquery.slimscroll.min.js'></script>
+	<script src='http://www.sman2amfoangtimur.sch.id/cbt/plugins/iCheck/icheck.min.js'></script>
+	<script src='http://www.sman2amfoangtimur.sch.id/cbt/dist/js/app.min.js'></script>
+	<script src='http://www.sman2amfoangtimur.sch.id/cbt/plugins/sweetalert2/dist/sweetalert2.min.js'></script>
+	<script src='http://www.sman2amfoangtimur.sch.id/cbt/plugins/slidemenu/jquery-slide-menu.js'></script>
+	<script src='http://www.sman2amfoangtimur.sch.id/cbt/plugins/mousetrap/mousetrap.min.js'></script>
+	<script src='http://www.sman2amfoangtimur.sch.id/cbt/plugins/MathJax-2.7.3/MathJax.js?config=TeX-AMS_HTML-full'></script>
+	<script src='http://www.sman2amfoangtimur.sch.id/cbt/plugins/toastr/toastr.min.js'></script>
+	<script>
+		var url = window.location;
+		$('ul.sidebar-menu a').filter(function() {
+			return this.href == url;
+		}).parent().addClass('active');
+		// for treeview
+		$('ul.treeview-menu a').filter(function() {
+			return this.href == url;
+		}).closest('.treeview').addClass('active');
+		var autoRefresh = setInterval(
+			function() {
+				$('#waktu').load('http://www.sman2amfoangtimur.sch.id/cbt/admin/_load.php?pg=waktu');
+				$('#pengumuman').load('http://www.sman2amfoangtimur.sch.id/cbt/admin/_load.php?pg=pengumumansiswa');
+			}, 1000
+		);
+	</script>
+	</body>
+
+</html>

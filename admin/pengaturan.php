@@ -41,7 +41,7 @@ $setting['header'] = str_replace('<br />', '', $setting['header']);
 											</div>
 											<div class='col-md-6'>
 												<label>Kode Sekolah</label>
-												<input type='text' name='kode' value="<?= $setting['kode_sekolah'] ?>" class='form-control' required='true' />
+												<input type='password' name='kode' value="<?= $setting['kode_sekolah'] ?>" class='form-control' required='true' />
 											</div>
 										</div>
 									</div>

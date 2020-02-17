@@ -2,7 +2,7 @@
 //konfigurasi server database
 $host = 'localhost';
 $user = 'root';
-$pass = 'admincbtntt';
+$pass = '';
 $debe = 'cbtntt';
 
 
